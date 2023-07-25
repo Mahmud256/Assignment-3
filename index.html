@@ -16,31 +16,101 @@
         <header>
             <nav class="font-lato text-[#fff]">
                 <div class="navbar rounded-full bg-[#F85559] flex justify-between items-center ">
-                        <div class="navbar-center hidden lg:flex">
-                            <ul class="menu menu-horizontal px-1 text-lg">
-                                <li><a>Home</a></li>
-                                <li><a>About Us</a></li>
-                                <li><a>Shop</a></li>
-                                <li><a>All Fruts</a></li>
-                            </ul>
-                        </div>
-                        <div class="flex items-center gap-5">
-                            <img class="w-14" src="./images/logo.png" alt="">
-                            <h1 class="text-4xl">Fruit Burst</h1>
-                        </div>
+                    <div class="navbar-center hidden lg:flex">
+                        <ul class="menu menu-horizontal px-1 text-lg">
+                            <li><a>Home</a></li>
+                            <li><a>About Us</a></li>
+                            <li><a>Shop</a></li>
+                            <li><a>All Fruts</a></li>
+                        </ul>
+                    </div>
+                    <div class="flex items-center gap-5">
+                        <img class="w-14" src="./images/logo.png" alt="">
+                        <h1 class="text-4xl">Fruit Burst</h1>
+                    </div>
 
-                        <div class="flex justify-around p-3 mr-3 rounded-full bg-[#fff] text-[#121212]">
-                            <input type="text" placeholder="Search here">
-                            <a href="#">
-                                <i class="fas fa-search" aria-hidden="true"></i>
-                            </a>
-                        </div>
+                    <div class="flex justify-around p-3 mr-3 rounded-full bg-[#fff] text-[#121212]">
+                        <input type="text" placeholder="Search here">
+                        <a href="#">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </a>
+                    </div>
 
                 </div>
 
             </nav>
         </header>
-        <main></main>
+    </section>
+
+    <section class="container mx-auto px-8 lg:px-16 py-5 my-10">
+        <main>
+            <div class="carousel w-full">
+                <div id="slide1" class="hero carousel-item relative w-full">
+                    <img src="./images/banner1.png" class="w-full" />
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div
+                        class="font-lato absolute max-w-2xl h-96 right-0 bottom-0 left-0 top-0 m-auto inset-x-[15%] hidden py-5 text-center text-[#fff] md:block">
+                        <h1 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl font-medium">
+                            We supply highly quality organic products
+                        </p>
+                        <button class="text-[#fff] btn btn-error mt-3">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide2" class="hero carousel-item relative w-full">
+                    <img src="./images/banner2.png" class="w-full" />
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div
+                        class="font-lato absolute max-w-2xl h-96 right-0 bottom-0 left-0 top-0 m-auto inset-x-[15%] hidden py-5 text-center text-[#fff] md:block">
+                        <h1 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl font-medium">
+                            We supply highly quality organic products
+                        </p>
+                        <button class="text-[#fff] btn btn-error mt-3">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide3" class="hero carousel-item relative w-full">
+                    <img src="./images/banner3.png" class="w-full" />
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div
+                        class="font-lato absolute max-w-2xl h-96 right-0 bottom-0 left-0 top-0 m-auto inset-x-[15%] hidden py-5 text-center text-[#fff] md:block">
+                        <h1 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl font-medium">
+                            We supply highly quality organic products
+                        </p>
+                        <button class="text-[#fff] btn btn-error mt-3">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <div id="slide4" class="hero carousel-item relative w-full">
+                    <img src="./images/banner4.png" class="w-full" />
+                    <div class="hero-overlay bg-opacity-60"></div>
+                    <div
+                        class="font-lato absolute max-w-2xl h-96 right-0 bottom-0 left-0 top-0 m-auto inset-x-[15%] hidden py-5 text-center text-[#fff] md:block">
+                        <h1 class="text-7xl font-extrabold">Exotic tastes at your doorstep</h1>
+                        <p class="text-xl font-medium">
+                            We supply highly quality organic products
+                        </p>
+                        <button class="text-[#fff] btn btn-error mt-3">Shop Now</button>
+                    </div>
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
+        </main>
     </section>
 
     <footer></footer>
