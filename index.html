@@ -156,7 +156,8 @@
             <div class="left-right font-lato flex flex-col lg:flex-row justify-between items-center">
                 <div class="left w-auto  lg:max-w-2xl">
                     <h1 class="text-4xl text-center lg:text-5xl lg:text-left font-extrabold">Deal of the day</h1>
-                    <p class="text-lg font-medium my-5 text-center lg:text-left lg:text-lg">Contrary to popular belief, is not simply random text. It has
+                    <p class="text-lg font-medium my-5 text-center lg:text-left lg:text-lg">Contrary to popular belief,
+                        is not simply random text. It has
                         roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
                     </p>
                 </div>
@@ -192,6 +193,7 @@
 
             <!-- Card -->
             <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                <!-- Card-1 -->
                 <div class="card border border-[#121212] bg-base-100">
                     <figure class="pt-8">
                         <img src="./images/fruit6.png" alt="Shoes">
@@ -203,11 +205,26 @@
 
                         <h3 class="text-[#121212]">Apples</h3>
                         <img src="./icon/Group 24.svg" alt="">
-                        <button class="">Details</button>
+                        <!-- Open the modal using ID.showModal() method -->
+                        <button class="" onclick="my_modal_1.showModal()">Details</button>
+                        <dialog id="my_modal_1" class="modal">
+                            <form method="dialog" class="modal-box lg:w-2/6 flex flex-col items-center">
+                                <img src="./images/fruit6.png" alt="">
+                                <h1 class="text-4xl font-extrabold">Apples</h1>
+                                <p class="text-base font-medium text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                <img src="./icon/Group 24.svg" alt="">
+                                <div class="modal-action  flex flex-row items-center">
+                                    <!-- if there is a button in form, it will close the modal -->
+                                    <button class="btn btn-outline mt-3 normal-case">Close</button>
+                                    <button class="btn btn-error normal-case mt-3 text-[#fff]">Buy Now</button>
+                                </div>
+                            </form>
+                        </dialog>
 
 
                     </div>
                 </div>
+                <!-- Card-2 -->
                 <div class="card border border-[#121212] bg-base-100">
                     <figure class="pt-8">
                         <img src="./images/fruit7.png" alt="Shoes">
@@ -219,11 +236,27 @@
 
                         <h3 class="text-[#121212]">Orange</h3>
                         <img src="./icon/Group 24.svg" alt="">
-                        <button class="">Details</button>
+                          <!-- Open the modal using ID.showModal() method -->
+                          <button class="" onclick="my_modal_2.showModal()">Details</button>
+                          <dialog id="my_modal_2" class="modal">
+                              <form method="dialog" class="modal-box lg:w-2/6 flex flex-col items-center">
+                                  <img src="./images/fruit7.png" alt="">
+                                  <h1 class="text-4xl font-extrabold">Orange</h1>
+                                  <p class="text-base font-medium text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                  <img src="./icon/Group 24.svg" alt="">
+                                  <div class="modal-action  flex flex-row items-center">
+                                      <!-- if there is a button in form, it will close the modal -->
+                                      <button class="btn btn-outline mt-3 normal-case">Close</button>
+                                      <button class="btn btn-error normal-case mt-3 text-[#fff]">Buy Now</button>
+                                  </div>
+                              </form>
+                          </dialog>
 
 
                     </div>
                 </div>
+
+                <!-- Card-3 -->
                 <div class="card border border-[#121212] bg-base-100">
                     <figure class="pt-8">
                         <img src="./images/fruit8.png" alt="Shoes">
@@ -235,11 +268,27 @@
 
                         <h3 class="text-[#121212]">Red Dragon</h3>
                         <img src="./icon/Group 24.svg" alt="">
-                        <button class="">Details</button>
+                          <!-- Open the modal using ID.showModal() method -->
+                          <button class="" onclick="my_modal_3.showModal()">Details</button>
+                          <dialog id="my_modal_3" class="modal">
+                              <form method="dialog" class="modal-box lg:w-2/6 flex flex-col items-center">
+                                  <img src="./images/fruit8.png" alt="">
+                                  <h1 class="text-4xl font-extrabold">Red Dragon</h1>
+                                  <p class="text-base font-medium text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                  <img src="./icon/Group 24.svg" alt="">
+                                  <div class="modal-action  flex flex-row items-center">
+                                      <!-- if there is a button in form, it will close the modal -->
+                                      <button class="btn btn-outline mt-3 normal-case">Close</button>
+                                      <button class="btn btn-error normal-case mt-3 text-[#fff]">Buy Now</button>
+                                  </div>
+                              </form>
+                          </dialog>
 
 
                     </div>
                 </div>
+
+                <!-- Card-4 -->
                 <div class="card border border-[#121212] bg-base-100">
                     <figure class="pt-8">
                         <img src="./images/fruit9.png" alt="Shoes">
@@ -251,7 +300,21 @@
 
                         <h3 class="text-[#121212]">Banana</h3>
                         <img src="./icon/Group 24.svg" alt="">
-                        <button class="">Details</button>
+                          <!-- Open the modal using ID.showModal() method -->
+                          <button class="" onclick="my_modal_4.showModal()">Details</button>
+                          <dialog id="my_modal_4" class="modal">
+                              <form method="dialog" class="modal-box lg:w-2/6 flex flex-col items-center">
+                                  <img src="./images/fruit9.png" alt="">
+                                  <h1 class="text-4xl font-extrabold">Banana</h1>
+                                  <p class="text-base font-medium text-center">Professional employees are there for you to pick the most amazing and fresh fruits.</p>
+                                  <img src="./icon/Group 24.svg" alt="">
+                                  <div class="modal-action  flex flex-row items-center">
+                                      <!-- if there is a button in form, it will close the modal -->
+                                      <button class="btn btn-outline mt-3 normal-case">Close</button>
+                                      <button class="btn btn-error normal-case mt-3 text-[#fff]">Buy Now</button>
+                                  </div>
+                              </form>
+                          </dialog>
 
 
                     </div>
@@ -267,8 +330,10 @@
             <div class="hero min-h-[calc(100vh-139px)] bg-banner">
                 <!-- <img src="./images/banner1.png" class="w-full"> -->
                 <div class="hero-overlay bg-opacity-60"></div>
-                <div class="font-lato absolute max-w-full h-auto lg:h-96 right-0 bottom-0 left-0 top-0 m-auto inset-x-[15%] py-5 text-center text-[#fff]">
-                    <h1 class="text-3xl lg:text-5xl font-extrabold text-center m-2.5">Meet the team <span class="hidden lg:contents">section</span></h1>
+                <div
+                    class="font-lato absolute max-w-full h-auto lg:h-96 right-0 bottom-0 left-0 top-0 m-auto inset-x-[15%] py-5 text-center text-[#fff]">
+                    <h1 class="text-3xl lg:text-5xl font-extrabold text-center m-2.5">Meet the team <span
+                            class="hidden lg:contents">section</span></h1>
                     <p class="px-3 lg:px-72 text-sm lg:text-base font-medium">
                         Contrary to popular belief, is not simply random text. It has roots in a piece of classical
                         Latin literature from 45 BC, making it over 2000 years old.
