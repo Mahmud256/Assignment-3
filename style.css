@@ -4,5 +4,10 @@
     font-family: 'Lato', sans-serif;
 }
 
+.bg-banner{
+    background-image: url(./images/banner1.png);
+    background-repeat: no-repeat;
+    position: relative;
+}
 
   

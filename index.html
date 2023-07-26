@@ -8,11 +8,13 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://kit.fontawesome.com/a7fbb4259c.js" crossorigin="anonymous"></script>
-    <title>Assignment-3</title>
+    <title>Fruit Burst</title>
+    <link rel="icon" href="./images/logo.png">
 </head>
 
 <body>
     <section class="container mx-auto px-8 lg:px-16 py-5 my-10">
+        <!-- Navbar -->
         <header>
             <nav class="font-lato text-[#fff]">
                 <div class="navbar rounded-full bg-[#F85559] flex justify-between items-center ">
@@ -41,10 +43,12 @@
             </nav>
         </header>
     </section>
+    <main>
+        <section class="container mx-auto px-8 lg:px-16 py-5 my-10">
 
-    <section class="container mx-auto px-8 lg:px-16 py-5 my-10">
-        <main>
+            <!-- Slider Section -->
             <div class="carousel w-full">
+                <!-- 1st -->
                 <div id="slide1" class="hero carousel-item relative w-full">
                     <img src="./images/banner1.png" class="w-full" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -61,6 +65,7 @@
                         <a href="#slide2" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- 2nd -->
                 <div id="slide2" class="hero carousel-item relative w-full">
                     <img src="./images/banner2.png" class="w-full" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -77,6 +82,7 @@
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- 3rd -->
                 <div id="slide3" class="hero carousel-item relative w-full">
                     <img src="./images/banner3.png" class="w-full" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -93,6 +99,7 @@
                         <a href="#slide4" class="btn btn-circle">❯</a>
                     </div>
                 </div>
+                <!-- 4th -->
                 <div id="slide4" class="hero carousel-item relative w-full">
                     <img src="./images/banner4.png" class="w-full" />
                     <div class="hero-overlay bg-opacity-60"></div>
@@ -109,10 +116,236 @@
                         <a href="#slide1" class="btn btn-circle">❯</a>
                     </div>
                 </div>
-            </div>
-        </main>
-    </section>
 
+                <!-- Slider Footer -->
+                <div class="hidden lg:contents relative flex items-center justify-center mx-52">
+                    <div
+                        class="absolute w-3/5 drop-shadow-2xl top-full left-0 right-0 m-auto flex items-center justify-center gap-10 bg-[#FFF] py-5 px-4">
+                        <!-- 1st -->
+                        <div class="text-center w-36">
+                            <img class="flex justify-center items-center" src="./images/fruit1.png" alt="">
+                            <p class="text-xl font-normal">Strawberry</p>
+                        </div>
+                        <!-- 2nd -->
+                        <div class="text-center w-36">
+                            <img class="flex justify-center items-center" src="./images/fruit2.png" alt="">
+                            <p class="text-xl font-normal">Orange</p>
+                        </div>
+                        <!-- 3rd -->
+                        <div class="text-center w-36">
+                            <img class="flex justify-center items-center" src="./images/fruit3.png" alt="">
+                            <p class="text-xl font-normal">Mango</p>
+                        </div>
+                        <!-- 4th -->
+                        <div class="text-center w-36">
+                            <img class="flex justify-center items-center" src="./images/fruit4.png" alt="">
+                            <p class="text-xl font-normal">Strawberry</p>
+                        </div>
+                        <!-- 5th -->
+                        <div class="text-center w-36">
+                            <img class="flex justify-center items-center" src="./images/fruit5.png" alt="">
+                            <p class="text-xl font-normal">Pomegranate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="container mx-auto px-8 lg:px-16 py-10 mt-60">
+            <div class="left-right font-lato flex justify-between items-center">
+                <div class="left w-1/2">
+                    <h1 class="text-5xl font-extrabold">Deal of the day</h1>
+                    <p class="text-base font-medium my-5">Contrary to popular belief, is not simply random text. It has
+                        roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+                <div class="right">
+                    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+                        <div class="flex flex-col">
+                            <span class="countdown text-5xl font-extrabold">
+                                <span style="--value:29;"></span>:
+                            </span>
+                            days
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown text-5xl font-extrabold">
+                                <span style="--value:15;"></span>:
+                            </span>
+                            hours
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown text-5xl font-extrabold">
+                                <span style="--value:25;"></span>:
+                            </span>
+                            min
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="countdown text-5xl font-extrabold">
+                                <span style="--value:8;"></span>
+                            </span>
+                            sec
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card -->
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+                <div class="card border border-[#121212] bg-base-100">
+                    <figure class="pt-8">
+                        <img src="./images/fruit6.png" alt="Shoes">
+                    </figure>
+                    <div class="font-lato card-body items-center">
+                        <div class="border-b border-[#121212] px-9 py-3">
+                            <h2 class="card-title text-base">12.90$ - 18.85$</h2>
+                        </div>
+
+                        <h3 class="text-[#121212]">Apples</h3>
+                        <img src="./icon/Group 24.svg" alt="">
+                        <button class="">Details</button>
+
+
+                    </div>
+                </div>
+                <div class="card border border-[#121212] bg-base-100">
+                    <figure class="pt-8">
+                        <img src="./images/fruit7.png" alt="Shoes">
+                    </figure>
+                    <div class="font-lato card-body items-center">
+                        <div class="border-b border-[#121212] px-9 py-3">
+                            <h2 class="card-title text-base">12.90$ - 18.85$</h2>
+                        </div>
+
+                        <h3 class="text-[#121212]">Orange</h3>
+                        <img src="./icon/Group 24.svg" alt="">
+                        <button class="">Details</button>
+
+
+                    </div>
+                </div>
+                <div class="card border border-[#121212] bg-base-100">
+                    <figure class="pt-8">
+                        <img src="./images/fruit8.png" alt="Shoes">
+                    </figure>
+                    <div class="font-lato card-body items-center">
+                        <div class="border-b border-[#121212] px-9 py-3">
+                            <h2 class="card-title text-base">12.90$ - 18.85$</h2>
+                        </div>
+
+                        <h3 class="text-[#121212]">Red Dragon</h3>
+                        <img src="./icon/Group 24.svg" alt="">
+                        <button class="">Details</button>
+
+
+                    </div>
+                </div>
+                <div class="card border border-[#121212] bg-base-100">
+                    <figure class="pt-8">
+                        <img src="./images/fruit9.png" alt="Shoes">
+                    </figure>
+                    <div class="font-lato card-body items-center">
+                        <div class="border-b border-[#121212] px-9 py-3">
+                            <h2 class="card-title text-base">12.90$ - 18.85$</h2>
+                        </div>
+
+                        <h3 class="text-[#121212]">Banana</h3>
+                        <img src="./icon/Group 24.svg" alt="">
+                        <button class="">Details</button>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex justify-center my-10">
+                <button class="text-[#fff] btn btn-error mt-3">Shop All</button>
+            </div>
+        </section>
+
+        <section class="container mx-auto px-8 lg:px-16 py-5 my-10">
+            <div class="hero min-h-[calc(100vh-139px)] bg-banner">
+                <!-- <img src="./images/banner1.png" class="w-full"> -->
+                <div class="hero-overlay bg-opacity-60"></div>
+                <div class="font-lato absolute max-w-full h-96 inset-x-[15%] hidden py-5 text-center text-[#fff] md:block">
+                    <h1 class="text-5xl font-extrabold">Meet the team section</h1>
+                    <p class="text-xl font-medium">
+                        Contrary to popular belief, is not simply random text. It has roots in a piece of classical
+                        Latin literature from 45 BC, making it over 2000 years old.
+                    </p>
+                </div>
+
+                <div class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-24 mt-44">
+                    <!-- card-1 -->
+                    <div class="card">
+                        <figure>
+                            <img src="./images/member1.png" alt="Shoes">
+                        </figure>
+                        <div class="font-lato text-[#FFF] card-body p-4 items-center">
+                            <h1 class="card-title text-base">Awlad Hossain</h1>
+                            <h2 class="">Fruits Expert</h2>
+                            <div class="flex gap-4">
+                                <img src="./icon/facebook 1.svg" alt="">
+                                <img src="./icon/twitter 1.svg" alt="">
+                                <img src="./icon/linkedin 1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-2 -->
+                    <div class="card">
+                        <figure>
+                            <img src="./images/member1.png" alt="Shoes">
+                        </figure>
+                        <div class="font-lato text-[#FFF] card-body p-4 items-center">
+                            <h1 class="card-title text-base">Awlad Hossain</h1>
+                            <h2 class="">Fruits Expert</h2>
+                            <div class="flex gap-4">
+                                <img src="./icon/facebook 1.svg" alt="">
+                                <img src="./icon/twitter 1.svg" alt="">
+                                <img src="./icon/linkedin 1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-3 -->
+                    <div class="card">
+                        <figure>
+                            <img src="./images/member1.png" alt="Shoes">
+                        </figure>
+                        <div class="font-lato text-[#FFF] card-body p-4 items-center">
+                            <h1 class="card-title text-base">Awlad Hossain</h1>
+                            <h2 class="">Fruits Expert</h2>
+                            <div class="flex gap-4">
+                                <img src="./icon/facebook 1.svg" alt="">
+                                <img src="./icon/twitter 1.svg" alt="">
+                                <img src="./icon/linkedin 1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- card-4 -->
+                    <div class="card">
+                        <figure>
+                            <img src="./images/member1.png" alt="Shoes">
+                        </figure>
+                        <div class="font-lato text-[#FFF] card-body p-4 items-center">
+                            <h1 class="card-title text-base">Awlad Hossain</h1>
+                            <h2 class="">Fruits Expert</h2>
+                            <div class="flex gap-4">
+                                <img src="./icon/facebook 1.svg" alt="">
+                                <img src="./icon/twitter 1.svg" alt="">
+                                <img src="./icon/linkedin 1.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
     <footer></footer>
 
 </body>
