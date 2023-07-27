@@ -13,36 +13,56 @@
 </head>
 
 <body>
-    <section class="container mx-auto px-4 lg:px-16 py-5 my-10">
-        <!-- Navbar -->
-        <header>
-            <nav class="font-lato text-[#fff]">
-                <div class="navbar rounded-full bg-[#F85559] flex justify-between items-center ">
-                    <div class="navbar-center hidden lg:flex">
-                        <ul class="menu menu-horizontal px-1 text-lg">
-                            <li><a>Home</a></li>
-                            <li><a>About Us</a></li>
-                            <li><a>Shop</a></li>
-                            <li><a>All Fruts</a></li>
-                        </ul>
-                    </div>
-                    <div class="flex items-center gap-5">
-                        <img class="w-14" src="./images/logo.png" alt="">
-                        <h1 class="text-4xl">Fruit Burst</h1>
-                    </div>
+    <header>
+        <section class="container mx-auto px-4 lg:px-16 py-5 my-10">
+            <!-- Navbar -->
+            
+                <nav class="font-lato">
+                    <div class="navbar lg:rounded-full lg:bg-[#F85559] flex justify-between items-center ">
+                        <div class="navbar-center hidden lg:flex">
+                            <ul class="menu menu-horizontal px-1 text-lg lg:text-[#fff]">
+                                <li><a>Home</a></li>
+                                <li><a>About Us</a></li>
+                                <li><a>Shop</a></li>
+                                <li><a>All Fruts</a></li>
+                            </ul>
+                        </div>
+                        <div class="flex items-center gap-5">
+                            <img class="w-14" src="./images/logo.png" alt="">
+                            <h1 class="text-xl font-bold lg:text-4xl lg:text-[#fff]">Fruit Burst</h1>
+                        </div>
+    
+                        <div class="hidden lg:contents relative flex items-center justify-center mx-52">
+                            <div class="flex justify-around p-3 mr-3 rounded-full bg-[#fff] text-[#121212]">
+                                <input type="text" class="outline-none" placeholder="Search here">
+                                <a href="#">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
 
-                    <div class="flex justify-around p-3 mr-3 rounded-full bg-[#fff] text-[#121212]">
-                        <input type="text" placeholder="Search here">
-                        <a href="#">
-                            <i class="fas fa-search" aria-hidden="true"></i>
-                        </a>
+                        <div class="md:mr-4 lg:hidden">
+                            <div class="dropdown dropdown-end">
+                                   <div class="dropdown dropdown-hover">
+                                        <label tabindex="0" class=""><img src="./icon/frame.svg" alt=""></label>
+                                        <ul tabindex="0" class="text-[#fff] text-center space-y-1 py-5 bg-[#F85559] dropdown-content z-[1] menu p-2 rounded-box w-32">
+                                             <a class="" href="">Home</a>
+                                             <a class="" href="">About Us</a>
+                                             <a class="" href="">Shop</a>
+                                             <a class="" href="">All Fruits</a>
+                                        </ul>
+                                      </div>
+                              
+                            </div>
+    
                     </div>
+    
+                </nav>
+            
+        </section>
+    </header>
+    
 
-                </div>
-
-            </nav>
-        </header>
-    </section>
     <main>
         <section class="container mx-auto px-4 lg:px-16 py-5 my-10">
 
